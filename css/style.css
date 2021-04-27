@@ -238,7 +238,6 @@ th {
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -698,20 +697,21 @@ th {
   font-size: 40px;
   padding: 45px 20px;
   color: #ffffff;
-  transition: all 0.5s;
+  transition: color 0.5s;
 }
 #contact .social i.fa:hover {
   color: #0078ff;
 }
 
+.whiteBox {
+  border-color: white;
+}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .about-mf .about-img {
   margin-bottom: 2rem;
-  border-color: white;
 }
 
 .about-mf .about-img img {
